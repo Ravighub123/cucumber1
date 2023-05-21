@@ -1,0 +1,564 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13448085800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13904338900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have clicked on Login Link",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_have_clicked_on_Login_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T07:10:49.065Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3914546800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setpdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validate the Login failure scenario",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-simplilearn-application;validate-the-login-failure-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1260053400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setpdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 351833300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter username",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115934700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486184400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Login button",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1736923400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should get the error message",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_should_get_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10254311000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5848645800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have clicked on Login Link",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_have_clicked_on_Login_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T07:11:24.451Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2270078500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setpdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validate the Login failure scenario using parameters",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-simplilearn-application;validate-the-login-failure-scenario-using-parameters",
+        "after": [
+          {
+            "result": {
+              "duration": 393824900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setpdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 393774100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter username as \"abc@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@xyz.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "setpdefs.LoginStepDef.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148914900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password as \"Abc@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abc@1234\"",
+                  "offset": 20
+                }
+              ],
+              "location": "setpdefs.LoginStepDef.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 538420600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on Login button",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3072184300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should get the error message as \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "setpdefs.LoginStepDef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7495803200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6287323900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have clicked on Login Link",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_have_clicked_on_Login_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T07:11:47.391Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1935458700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setpdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Validate the Login failure scenario using examples",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-simplilearn-application;validate-the-login-failure-scenario-using-examples;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 595423500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setpdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 339804900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter username as \"pqr@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pqr@xyz.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "setpdefs.LoginStepDef.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162906800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter password as \"Pqr@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pqr@1234\"",
+                  "offset": 20
+                }
+              ],
+              "location": "setpdefs.LoginStepDef.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3742766100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on Login button",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69960700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should get the error message as \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "setpdefs.LoginStepDef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7683690400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7875015500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have clicked on Login Link",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_have_clicked_on_Login_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-20T07:12:08.039Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1703837900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setpdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Validate the Login failure scenario using examples",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-login-functionality-of-simplilearn-application;validate-the-login-failure-scenario-using-examples;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 391528400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "setpdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 145091800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter username as \"xyz@abc.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xyz@abc.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "setpdefs.LoginStepDef.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109936600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter password as \"Xyz@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Xyz@1234\"",
+                  "offset": 20
+                }
+              ],
+              "location": "setpdefs.LoginStepDef.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4050939000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on Login button",
+            "match": {
+              "location": "setpdefs.LoginStepDef.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55436300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should get the error message as \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 34
+                }
+              ],
+              "location": "setpdefs.LoginStepDef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to test the login functionality of Simplilearn application",
+    "description": "",
+    "id": "this-feature-will-be-used-to-test-the-login-functionality-of-simplilearn-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Browser",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
